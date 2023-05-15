@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    background: rgb(255,170,0);
+background: linear-gradient(180deg, rgba(255,170,0,0.894607928620667) 0%, rgba(240,240,240,1) 47%, rgba(32,255,0,0.6228992451472777) 100%);
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 40rem;
+}
+
+img{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    /*padding-bottom: 1rem; */
+    width: 125%;
+    height: 39.5rem;
+    border-top-left-radius: 350px;
+    border-bottom-left-radius: 350px;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 350px;
+    
+}
+
+.login h1{
+    color: orangered;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.inp{
+    height: 50px;
+    width: 55%;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.45);
+    background-color: white;
+    font-weight: bold;
+}
+
+.btn1{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    background-color: lightgreen;
+    font-weight: bold;
+    color: black;
+}
+
+.btn1:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+    transition: linear 0.25s;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.fa-facebook{
+    padding: 15px;
+}
+
+.fa-google{
+    padding: 15px;
+}
+
+.fa-instagram{
+    padding: 15px;
+}
+
+.fa-twitter{
+    padding: 15px;
+}
+
+.fa-envelope{
+    padding: 15px;
+}
+
+.fa-facebook:hover{
+    color: rgb(1, 101, 225);
+}
+
+.fa-twitter:hover{
+    color: rgb(29, 155, 240);
+}
+
+.fa-google:hover{
+    color: rgb(219, 68, 55);
+}
+
+.fa-instagram:hover{
+    color: rgb(245, 96, 64);
+}
+
+.fa-envelope:hover{
+    color: rgb(255,225,53);
+}
